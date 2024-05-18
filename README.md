@@ -3,9 +3,9 @@
 <p class="has-line-data" data-line-start="2" data-line-end="3">MiniMedGPT is designed to assist radiologists by using AI to interpret MRI and CT scans, specifically for brain tumors and lung cancer. This AI-driven chatbot aims to provide real-time answers to clinical questions, improve diagnostic accuracy, and enhance the efficiency of medical imaging workflows. By integrating such technology, the goal is to reduce the heavy workload on radiologists, expedite the diagnostic process, and ultimately improve patient outcomes through earlier and more precise detection of critical health issues.</p>
 <h2 class="code-line" data-line-start=3 data-line-end=4 ><a id="Demo_3"></a>Demo</h2>
 <p class="has-line-data" data-line-start="4" data-line-end="5">Check out the examples below:</p>
-<img src="https://github.com/RosolSharairh/MiniMedGPT/blob/main/examples/example1.jpg?raw=true" alt="Example 1">
-<img src="https://github.com/RosolSharairh/MiniMedGPT/blob/main/examples/example2.jpg?raw=true" alt="Example 2">
-<img src="https://github.com/RosolSharairh/MiniMedGPT/blob/main/examples/example3.jpg?raw=true" alt="Example 3">
+<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example1.jpg?raw=true" alt="Example 1">
+<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example2.jpg?raw=true" alt="Example 2">
+<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example3.jpg?raw=true" alt="Example 3">
 <h2 class="code-line" data-line-start=5 data-line-end=6 ><a id="Installation_5"></a>Installation</h2>
 <p class="has-line-data" data-line-start="6" data-line-end="8"><strong>1- Prepare the code and the environment</strong><br>
 Git clone our repository, creating a python environment and activate it via the following command.</p>
@@ -19,14 +19,14 @@ RadioV etex is a finetuned model of MiniGPT-v2, which is based on Llama2 Chat 7B
 <strong>3- Prepare the pretrained model checkpoints</strong><br>
 Download the pretrained model checkpoints.<br>
 <a href="https://drive.google.com/file/d/1-uwRLa3xrD2h15UbdS8-gznx8UDH2zNY/view?usp=sharing">Download</a><br>
-Set the path to the pretrained checkpoint in the evaluation config file <a href="https://github.com/RosolSharairh/MiniMedGPT/blob/main/eval_configs/minigptv2_eval.yaml">eval_configs/minigptv2_eval.yaml</a> at Line 8.<br>
+Set the path to the pretrained checkpoint in the evaluation config file <a href="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/eval_configs/minigptv2_eval.yaml">eval_configs/minigptv2_eval.yaml</a> at Line 8.<br>
 <a href="https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view">Download</a>our pretrained model.</p>
 <h2 class="code-line" data-line-start=22 data-line-end=23 ><a id="Launching_Demo_Locally_22"></a>Launching Demo Locally</h2>
 <p class="has-line-data" data-line-start="23" data-line-end="24">Run:</p>
 <pre><code class="has-line-data" data-line-start="25" data-line-end="27" class="language-sh">python demo_v2.py --cfg-path <span class="hljs-built_in">eval</span>_configs/minigptv2_eval.yaml  --gpu-id <span class="hljs-number">0</span>
 </code></pre>
 <p class="has-line-data" data-line-start="27" data-line-end="29">To save GPU memory, LLMs loads as 8 bit by default, with a beam search width of 1. This configuration requires about 23G GPU memory for 13B LLM and 11.5G GPU memory for 7B LLM. For more powerful GPUs, you can run the model in 16 bit by setting <code>low_resource</code> to <code>False</code> in the relevant config file:<br>
-<a href="https://github.com/RosolSharairh/MiniMedGPT/blob/main/eval_configs/minigptv2_eval.yaml">minigptv2_eval.yaml</a></p>
+<a href="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/eval_configs/minigptv2_eval.yaml">minigptv2_eval.yaml</a></p>
 <h2 class="code-line" data-line-start=30 data-line-end=31 ><a id="Training_30"></a>Training</h2>
 <p class="has-line-data" data-line-start="31" data-line-end="33">You can download the data we used <a href="https://www.med-vqa.com/slake/">here</a>.<br>
 In the train_configs/minigptv2_finetune.yaml, you need to set up the following paths:</p>
