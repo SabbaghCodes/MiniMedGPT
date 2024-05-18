@@ -2,11 +2,6 @@
 <h2 class="code-line" data-line-start=1 data-line-end=2><a id="_VQA_System_for_Neuroradiology_Brain_Tumors_and_Lung_Cancer_Screening_Using_MRI_and_CT_Scans__1"></a><em>VQA System for Neuroradiology, Brain Tumors, and Lung Cancer Screening and More Using MRI and CT Scans.</em></h2>
 <p class="has-line-data" data-line-start="2" data-line-end="3">MiniMedGPT is designed to assist radiologists by using AI to interpret MRI and CT scans, specifically for brain tumors and lung cancer. This AI-driven chatbot aims to provide real-time answers to clinical questions, improve diagnostic accuracy, and enhance the efficiency of medical imaging workflows. By integrating such technology, the goal is to reduce the heavy workload on radiologists, expedite the diagnostic process, and ultimately improve patient outcomes through earlier and more precise detection of critical health issues.</p>
 
-<h2 class="code-line" data-line-start=3 data-line-end=4><a id="Demo_3"></a>Demo</h2>
-<p class="has-line-data" data-line-start="4" data-line-end="5">Check out the examples below:</p>
-<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example1.jpg?raw=true" alt="Example 1">
-<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example2.jpg?raw=true" alt="Example 2">
-<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example3.jpg?raw=true" alt="Example 3">
 
 <h2 class="code-line" data-line-start=5 data-line-end=6><a id="Installation_5"></a>Installation</h2>
 <p class="has-line-data" data-line-start="6" data-line-end="8"><strong>1- Prepare the code and the environment</strong><br>
@@ -56,6 +51,12 @@ ckpt save path: ```/path/to/save_checkpoint```</p>
 <li class="has-line-data" data-line-start="54" data-line-end="55">scikit-image (visit <a href="https://scikit-image.org/docs/stable/user_guide/install.html">this page</a> for installation)</li>
 <li class="has-line-data" data-line-start="55" data-line-end="57">matplotlib (visit <a href="https://matplotlib.org/stable/users/installing/index.html">this page</a> for installation)</li>
 </ul>
+
+<h2 class="code-line" data-line-start=3 data-line-end=4><a id="Demo_3"></a>Examples</h2>
+<p class="has-line-data" data-line-start="4" data-line-end="5">Check out the examples below:</p>
+<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example1.jpg?raw=true" alt="Example 1">
+<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example2.jpg?raw=true" alt="Example 2">
+<img src="https://github.com/SabbaghCodes/MiniMedGPT/blob/main/examples/example3.jpg?raw=true" alt="Example 3">
 
 <h2 class="code-line" data-line-start=57 data-line-end=58><a id="Acknowledgement_57"></a>Acknowledgement</h2>
 <p class="has-line-data" data-line-start="58" data-line-end="59">Thanks to the creators of MiniGPT-v2, check out their website <a href="https://minigpt-4.github.io/">here</a>.</p>
