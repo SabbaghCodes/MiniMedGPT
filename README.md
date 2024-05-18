@@ -33,9 +33,9 @@ Set the path to the pretrained checkpoint in the evaluation config file <a href=
 <h2 class="code-line" data-line-start=30 data-line-end=31><a id="Training_30"></a>Training</h2>
 <p class="has-line-data" data-line-start="31" data-line-end="33">You can download the data we used <a href="https://www.med-vqa.com/slake/">here</a>.<br>
 In the train_configs/minigptv2_finetune.yaml, you need to set up the following paths:</p>
-<p class="has-line-data" data-line-start="34" data-line-end="37">llama_model checkpoint path: `/path/to/llama_checkpoint`<br>
-ckpt: `/path/to/pretrained_checkpoint`<br>
-ckpt save path: `/path/to/save_checkpoint`</p>
+<p class="has-line-data" data-line-start="34" data-line-end="37">llama_model checkpoint path: ```/path/to/llama_checkpoint```<br>
+ckpt: ```/path/to/pretrained_checkpoint```<br>
+ckpt save path: ```/path/to/save_checkpoint```</p>
 <p class="has-line-data" data-line-start="38" data-line-end="40">For ckpt, you may load from our pretrained model checkpoints:<br>
 <a href="https://drive.google.com/file/d/1-uwRLa3xrD2h15UbdS8-gznx8UDH2zNY/view?usp=sharing">Download</a></p>
 <pre><code class="has-line-data" data-line-start="41" data-line-end="43" class="language-sh">torchrun --nproc-per-node NUM_GPU train.py --cfg-path train_configs/minigptv2_finetune.yaml
