@@ -1,0 +1,9 @@
+datasets:
+  pmcvqa:
+    # data_dir: ${env.data_dir}/datasets
+    data_type: images # [images|videos|features]
+
+    build_info:
+      # Be careful not to append minus sign (-) before split to avoid itemizing
+      ann_path: /ibex/user/sabbam0a/grad/MiniGPT-4/medvqa_dataset/PMC-VQA/train.csv
+      image_path: /ibex/user/sabbam0a/grad/MiniGPT-4/medvqa_dataset/PMC-VQA/images/images
