@@ -15,7 +15,7 @@ conda env create <span class="hljs-operator">-f</span> environment.yml
 conda activate MiniMedGPT
 </code></pre>
 <p class="has-line-data" data-line-start="14" data-line-end="21"><strong>2- Prepare the pretrained LLM weights</strong><br>
-RadioV etex is a finetuned model of MiniGPT-v2, which is based on Llama2 Chat 7B. Download the LLM weights from the following huggingface space via clone the repository using git-lfs. <a href="https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main">Download</a><br>
+RadioV etex is a finetuned model of MiniGPT-v2, which is based on Llama2 Chat 7B. Download the LLM weights from the following huggingface space via clone the repository using git-lfs. <a href="https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main"> Download</a><br>
 <strong>3- Prepare the pretrained model checkpoints</strong><br>
 Download the pretrained model checkpoints.<br>
 <a href="https://drive.google.com/file/d/1-uwRLa3xrD2h15UbdS8-gznx8UDH2zNY/view?usp=sharing">Download</a><br>
